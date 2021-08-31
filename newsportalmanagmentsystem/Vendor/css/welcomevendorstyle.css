@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.heading
+{
+    background-color: #262439
+    ;
+    width: 100%;
+    height:200px;
+    border:2px solid ;
+}
+.headText
+{
+    text-align: center;
+    padding: 80px;
+    font-size: 60px;
+    color:white;
+}
+h2
+{
+    padding: 30px;
+    font-size: 30px;
+}
+#piechart
+{
+    padding-left: 250px;
+}
+

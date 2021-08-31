@@ -1,0 +1,276 @@
+/* Navbar Style */
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar
+        {
+            background-color: #0b122c;
+            padding: 10px 10px;
+            text-align: right;
+        }
+        .navbar a
+        {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            padding: 10px 10px;
+            text-align: center;
+        }
+        .dropdown-container
+        {
+            display: inline;
+             position: relative; 
+        }
+        .dropdown-content a
+        {
+            display: block;
+            text-align: center;
+        }
+        .dropdown-content
+        {
+            position: absolute;
+            background-color: #0b122c;
+            top: 25px;
+            right: 0px; 
+            left: 0px;
+            text-align: left;
+            min-width: 100px;
+            display: none;
+            
+        }
+        .dropdown-container:hover .dropdown-content
+        {
+            display: block;
+            
+        }
+        .navbar a:hover
+        {
+            background-color:#040711;
+            font-size: 21px;
+        }
+        .dropdown-content a:hover
+        {
+            background-color: #040711;
+            
+        }
+         .navbar .logo 
+        {
+            padding: 0;
+            float: left;
+            text-align: center;
+            font-size: 25px; 
+           
+        }         
+        .navbar .logo:hover
+        {
+            color:#fff;
+            background-color:transparent;
+            font-size: 26px;
+        }
+
+/* Home Screen Design */
+
+.travel{grid-area: travel;
+    background: url('../file/travel.jpg') center center;
+    background-repeat: no-repeat;
+    background-size: 800px 600px}
+
+ .vr{grid-area: vr;
+    background: url('../file/virtualReality.jpg') center center;
+    background-size: cover;}
+    .soccer
+    {
+        grid-area: soccer;
+        background: url('../file/soccer2.jpg');
+        background-repeat: no-repeat;
+        background-size: 800px 600px;
+    }
+
+    .football
+    {
+        grid-area: football;
+        background: url('../file/football2.jpg');
+        background-repeat: no-repeat;
+        background-size: 800px 600px;
+
+    }
+    .laptop
+    {
+        grid-area: laptop;
+        background: url('../file/laptop.jpg');
+        background-repeat: no-repeat;
+        background-size: 800px 500px;
+
+    }
+    .city
+    {
+        grid-area: city;
+        background: url('../file/tokyo.jpg');
+        background-repeat: no-repeat;
+        background-size: 800px 600px;
+
+    }
+.grid-container
+{
+    display: grid;
+    
+    grid-template-areas:
+    'travel vr'
+    'travel vr';
+
+    /* background-color: darkgrey; */
+    grid-template-rows: 300px 150px;
+    grid-gap: 15px;
+    
+}
+.grid-2
+{
+    display: grid;
+    
+    grid-template-areas:
+    'soccer soccer football football'
+    'soccer soccer football football';
+
+    /* background-color: darkgrey; */
+    grid-template-rows: 300px 150px;
+    grid-gap: 15px;
+    
+}
+.grid-3
+{
+    display: grid;
+    
+    grid-template-areas:
+    'laptop city'
+    'laptop city';
+
+    /* background-color: darkgrey; */
+    grid-template-rows: 300px 150px;
+    grid-gap: 15px;
+    
+}
+
+
+
+.bottomleft {
+    position: absolute;
+    bottom: 120px;
+    left: 16px;
+    font-size: 40px;
+    color: white;
+    text-align: left;
+}
+
+.bottomleft2 {
+    position: absolute;
+    bottom: 120px;
+    left: 650px;
+    font-size: 40px;
+    color: white;
+    text-align: left;
+}
+
+.bottomleft3 {
+    position: absolute;
+    bottom: -370px;
+    left: 16px;
+    font-size: 40px;
+    color: white;
+    text-align: left;
+}
+.bottomleft4 {
+    position: absolute;
+    bottom: -370px;
+    left: 650px;
+    font-size: 40px;
+    color: white;
+    text-align: left;
+}
+.bottomleft5 {
+    position: absolute;
+    bottom: -850px;
+    left: 16px;
+    font-size: 40px;
+    color: white;
+    text-align: left;
+}
+
+.bottomleft6 {
+    position: absolute;
+    bottom: -850px;
+    left: 650px;
+    font-size: 40px;
+    color: white;
+    text-align: left;
+}
+/* 
+.bottomleft4:hover
+{
+    font-size: 45px;
+}
+.bottomleft3:hover
+{
+    font-size: 45px;
+}
+.bottomleft6:hover
+{
+    font-size: 45px;
+}
+.bottomleft2:hover
+{
+    font-size: 45px;
+}
+.bottomleft:hover
+{
+    font-size: 45px;
+}
+.bottomleft5:hover
+{
+    font-size: 45px;
+} */
+.travel:hover
+{
+    opacity:0.8;
+}
+.vr:hover
+{
+    opacity: 0.8;
+}
+.soccer:hover
+{
+    opacity:0.8;
+}
+.laptop:hover
+{
+    opacity:0.8;
+}
+.football:hover
+{
+    opacity:0.8;
+}
+.city:hover
+{
+    opacity: 0.8;
+}
+
+/* Footer Design */
+
+.footr{
+    width: auto;
+    height: 100px auto;
+
+    background: #0b122c;
+    color: white;
+    text-align: center;
+}
+.text
+{
+    padding: 5px;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+       
